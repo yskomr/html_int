@@ -15,7 +15,7 @@ a {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-image: url(./img/top.png);
     background-size: cover;
     color: white;
     text-align: center;
@@ -72,10 +72,8 @@ header {
     height: 65px;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
-    /* positionプロパティをfixedに、topを0に指定してください */
     position: fixed;
     top: 0;
-    /* z-indexを10に指定してください */
     z-index: 10;
 }
 
